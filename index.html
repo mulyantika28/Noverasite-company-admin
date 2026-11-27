@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noverasite | Company Admin</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f3f5f9;
+      color: #172b4d;
+    }
+
+    header {
+      background: #172b4d;
+      color: white;
+      padding: 25px;
+    }
+
+    header h1 {
+      margin: 0 0 8px;
+    }
+
+    main {
+      padding: 25px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      background: white;
+      padding: 22px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px #00000008;
+    }
+
+    .card h3 {
+      color: #64748b;
+      font-size: 14px;
+    }
+
+    .card p {
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .section {
+      background: white;
+      margin-top: 25px;
+      padding: 22px;
+      border-radius: 12px;
+    }
+
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .menu button {
+      background: #2459a6;
+      color: white;
+      border: 0;
+      padding: 14px 20px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>NOVERASITE</h1>
+  <p>Company Administration System</p>
+</header>
+
+<main>
+  <h2>Dashboard Perusahaan</h2>
+  <p>Selamat datang di sistem internal Noverasite.</p>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Total Anggota Tim</h3>
+      <p>0</p>
+    </div>
+
+    <div class="card">
+      <h3>Total Klien</h3>
+      <p>0</p>
+    </div>
+
+    <div class="card">
+      <h3>Proyek Berjalan</h3>
+      <p>0</p>
+    </div>
+
+    <div class="card">
+      <h3>Tugas Selesai</h3>
+      <p>0</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Menu Administrasi</h2>
+    <div class="menu">
+      <button>Data Tim</button>
+      <button>Data Klien</button>
+      <button>Proyek</button>
+      <button>Tugas</button>
+      <button>Keuangan</button>
+      <button>Laporan</button>
+    </div>
+  </div>
+</main>
+
+</body>
+</html>
