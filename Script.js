@@ -40,4 +40,5 @@ function tambahTim() {
   document.getElementById("namaTim").value = "";
   document.getElementById("jabatanTim").value = "";
   document.getElementById("kontakTim").value = "";
+
 }
