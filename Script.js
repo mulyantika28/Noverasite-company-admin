@@ -1,3 +1,4 @@
+alert("javaScript Noverasite berhasil dibaca!");
 function bukaMenu(namaMenu) {
   if (namaMenu === "Data Tim") {
     document.getElementById("halamanTim").style.display = "block";
